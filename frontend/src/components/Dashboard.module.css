@@ -1,0 +1,38 @@
+.root { display: flex; flex-direction: column; gap: 2rem; }
+
+.statsRow { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+
+.statCard {
+  background: var(--surface);
+  border: 1px solid;
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.statValue { font-size: 2.5rem; font-weight: 700; line-height: 1; }
+.statLabel { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+.tableCard { background: var(--surface); border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; }
+.tableHeader { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); }
+.tableTitle { font-size: 1rem; font-weight: 600; }
+.refreshBtn { background: none; border: 1px solid var(--border); border-radius: 6px; color: var(--text-muted); cursor: pointer; padding: 0.3rem 0.75rem; font-size: 0.85rem; transition: all 0.15s; }
+.refreshBtn:hover { color: var(--text); border-color: var(--accent); }
+
+.empty { padding: 3rem; text-align: center; color: var(--text-muted); }
+.tableWrapper { overflow-x: auto; }
+
+.table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+.table th { text-align: left; padding: 0.75rem 1.5rem; color: var(--text-muted); font-weight: 500; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.table td { padding: 0.75rem 1.5rem; border-top: 1px solid var(--border); }
+.row:hover { background: var(--surface2); }
+
+.idCell { font-family: monospace; color: var(--text-muted); }
+.reasonCell { max-width: 300px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-muted); font-size: 0.8rem; }
+
+.badge { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.25rem 0.6rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
+
+.viewBtn { background: none; border: 1px solid var(--border); border-radius: 6px; color: var(--accent); cursor: pointer; padding: 0.25rem 0.75rem; font-size: 0.8rem; transition: all 0.15s; }
+.viewBtn:hover { background: rgba(56, 189, 248, 0.1); }
+

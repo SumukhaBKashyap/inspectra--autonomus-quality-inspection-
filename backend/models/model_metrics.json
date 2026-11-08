@@ -1,0 +1,7 @@
+{
+  "type_accuracy": 0.9967,
+  "size_accuracy": 1.0,
+  "mae_outer_mm": 0.008,
+  "mae_inner_mm": 0.0078,
+  "r2_score": 0.9996
+}
