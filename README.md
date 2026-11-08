@@ -156,3 +156,5 @@ npm run dev
 ### 3. Hardware Simulation vs Real Hardware Mode
 - To run with physical hardware connected: Open **Settings** tab in the dashboard, toggle **Hardware Simulation Mode** OFF, select your Arduino COM port, and click **Save Changes**.
 - When Arduino is not physically connected: Leave **Hardware Simulation Mode** ON. All 18 workflow steps, servo kinematics, sensor triggers, and inspection algorithms will simulate accurately.
+#   i n s p e c t r a - - a u t o n o m u s - q u a l i t y - i n s p e c t i o n -  
+ 
